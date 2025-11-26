@@ -85,7 +85,7 @@ export default function PromotionModal({ isOpen, onClose, promotion, onSave }: P
             <input
               type="text"
               required
-              placeholder="Например: 2024-12-31 или Бессрочно"
+              placeholder="Например: 2026-12-31 или Бессрочно"
               className="mt-1 w-full rounded-lg border border-slate-300 p-2.5 text-sm focus:border-blue-500 focus:outline-none"
               value={validUntil}
               onChange={(e) => setValidUntil(e.target.value)}
